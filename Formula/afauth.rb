@@ -1,28 +1,28 @@
 class Afauth < Formula
   desc "Agent-First Auth — reference CLI"
   homepage "https://afauth.org"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AFAuthHQ/cli/releases/download/v0.1.0/afauth_0.1.0_darwin_arm64.tar.gz"
-      sha256 "4c8d4e400395b02cb678a6fc8f15bf00a447c86e432bfd2d9ccf3ea81d849549"
+      url "https://github.com/AFAuthHQ/cli/releases/download/v0.2.0/afauth_0.2.0_darwin_arm64.tar.gz"
+      sha256 "7ab1a84803be66c19a1a67d08c671ed79a29581712310801ce69bba535a3b550"
     end
     on_intel do
-      url "https://github.com/AFAuthHQ/cli/releases/download/v0.1.0/afauth_0.1.0_darwin_amd64.tar.gz"
-      sha256 "ebd0774583c64afb183c731fd0f0e453c9a63ea6b935d55a39cdaabcca534994"
+      url "https://github.com/AFAuthHQ/cli/releases/download/v0.2.0/afauth_0.2.0_darwin_amd64.tar.gz"
+      sha256 "f0398ac3f2f1ad43a864b37cad98cc0474fe883834020e45d497a97775155bde"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AFAuthHQ/cli/releases/download/v0.1.0/afauth_0.1.0_linux_arm64.tar.gz"
-      sha256 "213384500b327689f5ff37486b217b770b3c4f5bb5348f3db8e9046d8a2ba351"
+      url "https://github.com/AFAuthHQ/cli/releases/download/v0.2.0/afauth_0.2.0_linux_arm64.tar.gz"
+      sha256 "eec18897f7a71491d78cb66fbee3714fceae8d29aad881c4ed3c43e3d739d899"
     end
     on_intel do
-      url "https://github.com/AFAuthHQ/cli/releases/download/v0.1.0/afauth_0.1.0_linux_amd64.tar.gz"
-      sha256 "c5f386b2d8fe62e6fcd4f0e33579ded6f1ab2664fde9f2d522b7fd33650abdfe"
+      url "https://github.com/AFAuthHQ/cli/releases/download/v0.2.0/afauth_0.2.0_linux_amd64.tar.gz"
+      sha256 "701992d4f5b3bc52b631e2af1b0c6b56be41714a9ab51fd1bbf122e2d6813373"
     end
   end
 
